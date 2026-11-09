@@ -1,0 +1,100 @@
+[
+  {
+    "file": "Data/Festivals/fall27.json",
+    "key": "Leo",
+    "vi": "%Đôi mắt của Leo dán chặt vào màn hình. Không màng gì đến bạn.",
+    "en": "%Leo's unblinking eyes are glued to the screen. You're unable to get his attention.",
+    "en_tokens": {
+      "%Leo": 1
+    },
+    "vi_tokens": {}
+  },
+  {
+    "file": "Data/Festivals/summer11.json",
+    "key": "Emily",
+    "vi": "%Cô ấy không phản ứng gì.",
+    "en": "%She's unresponsive.",
+    "en_tokens": {
+      "%She": 1
+    },
+    "vi_tokens": {
+      "%C": 1
+    }
+  },
+  {
+    "file": "Dialogue/Clint.json",
+    "key": "Resort_Shore_2",
+    "vi": "Tôi cứ tưởng làm việc cạnh lò rồi thì cái nóng này chẳng là gì nữa, nhưng tôi đang đổ mồ hôi ở những chỗ tôi còn không biết là mình có.$s#$e#Mong là không ai nhận ra...#$e#%Cơ thể của Clint đang bóng lấm...",
+    "en": "I thought working a furnace would have prepared me for this heat, but I'm sweating in places I didn't know I could.$s#$e#I hope no one noticed...#$e#%Clint's body is glistening...",
+    "en_tokens": {
+      "$s": 1,
+      "#": 4,
+      "$e": 2,
+      "%Clint": 1
+    },
+    "vi_tokens": {
+      "$s": 1,
+      "#": 4,
+      "$e": 2,
+      "%C": 1
+    }
+  },
+  {
+    "file": "Dialogue/Pierre.json",
+    "key": "Thu2",
+    "vi": "Chú thật sự cảm kích vì cháu ghé mua hàng, cháu @ à. Dạo này chú ngày càng khó kiếm được chút lời kha khá.",
+    "en": "I really do appreciate your business, Mr. @. I've been having a harder and harder time turning a decent profit.^I really do appreciate your business, Ms. @. I've been having a harder and harder time turning a decent profit.",
+    "en_tokens": {
+      "@": 2
+    },
+    "vi_tokens": {
+      "@": 1
+    }
+  },
+  {
+    "file": "Strings/1_6_Strings.json",
+    "key": "DesertFestival_Haley2_marriage",
+    "vi": "%Vợ của bạn đang ngủ trưa.",
+    "en": "%Your wife is taking a nap.",
+    "en_tokens": {
+      "%Your": 1
+    },
+    "vi_tokens": {
+      "%V": 1
+    }
+  },
+  {
+    "file": "Strings/StringsFromCSFiles.json",
+    "key": "ItemDeliveryQuest.cs.13577",
+    "vi": "Ôi, cảm ơn @ nhiều lắm! Biết ngay là @ sẽ là người nhận việc này mà.$h",
+    "en": "Hey, thanks a million, @! I should've known you'd be the one to take this job.$h",
+    "en_tokens": {
+      "@": 1,
+      "$h": 1
+    },
+    "vi_tokens": {
+      "@": 2,
+      "$h": 1
+    }
+  },
+  {
+    "file": "Strings/StringsFromCSFiles.json",
+    "key": "ItemDeliveryQuest.cs.13597",
+    "vi": " Hửm... cái này không thú vị như mình nghĩ...$s#$b#Nhưng không phải lỗi của @ đâu! Haha. Cảm ơn vì đã đáp lại tờ thông báo của mình, @.$h",
+    "en": " Hmm... this isn't as exciting as I thought it would be...$s#$b#But that's not your fault! Haha. Thanks for responding to my bulletin, @.$h",
+    "en_tokens": {
+      "$s": 1,
+      "#": 2,
+      "$b": 1,
+      "@": 1,
+      "$h": 1
+    },
+    "vi_tokens": {
+      "$s": 1,
+      "#": 2,
+      "$b": 1,
+      "@": 2,
+      "$h": 1
+    }
+  }
+]

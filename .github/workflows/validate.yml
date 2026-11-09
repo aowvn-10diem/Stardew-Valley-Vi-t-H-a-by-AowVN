@@ -1,0 +1,44 @@
+name: Kiem dinh tinh
+
+# Chạy validator miễn phí trên GitHub Actions thay cho việc để model đọc/kiểm JSON (0 token).
+on:
+  push:
+    paths: ["source/**", "qa/**", "baseline/**", "tools/**", ".github/workflows/validate.yml"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Kiem SHA256 baseline
+        working-directory: baseline
+        run: sha256sum -c SHA256SUMS.txt
+
+      - name: Giai nen RC1 baseline
+        run: |
+          mkdir -p "$RUNNER_TEMP/rc1"
+          unzip -q baseline/Stardew_vi_1.6_RC1_BASELINE.zip -d "$RUNNER_TEMP/rc1"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Chay validator
+        run: python3 tools/ci_validate.py "$RUNNER_TEMP/rc1" ci-report
+
+      - name: Tom tat
+        if: always()
+        run: test -f ci-report/summary.md && cat ci-report/summary.md >> "$GITHUB_STEP_SUMMARY" || true
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: validation-report
+          path: ci-report/

@@ -1,0 +1,22 @@
+{
+  "RandomNegativeItemNoun": "rác#rác rưởi#đồng nát#phế thải#phân",
+  "RandomPositiveAdjective_Child": "ngầu#vui tính#sắc sảo#tốt bụng#khéo léo#xuất sắc#tuyệt vời",
+  "RandomPositiveAdjective_AdultMale": "thú vị#lí thú#sắc sảo#vui tính#tuyệt vời#xuất sắc",
+  "RandomPositiveAdjective_AdultFemale": "tuyệt vời#đáng kinh ngạc#ấm áp#kỳ diệu#không thể tin được#đáng yêu#phấn khởi#say mê",
+  "RandomPositiveAdjective_PlaceOrEvent": "tuyệt vời#đáng kinh ngạc#ấm áp#kỳ diệu#không thể tin được#đáng yêu#phấn khởi#say mê",
+  "RandomDeliciousAdjective": "ngon miệng#ngon#tuyệt vời#thỏa mãn#no nê#ngon tuyệt#khoái khẩu#say mê",
+  "RandomDeliciousAdjective_Child": "ngon",
+  "RandomNegativeFoodAdjective_Child": "ghê",
+  "RandomNegativeFoodAdjective_Polite": "...thú vị#...khác thường#...lạ miệng#...khác biệt",
+  "RandomNegativeFoodAdjective": "kinh tởm#gớm guốc#ghê tởm#tầm thường#kinh tởm#kinh tởm#tệ hại#ghê tởm#buồn nôn#hôi thối#kinh khủng#thối",
+  "RandomSlightlyPositiveFoodAdjective": "khá#ngon#ăn được",
+  "ChildTerm_Male": "trai",
+  "ChildTerm_Female": "gái",
+  "Pronoun_Male": "anh ấy",
+  "Pronoun_Female": "cô ấy",
+  "QuestionDialogue_Yes": "Đồng ý",
+  "QuestionDialogue_No": "Không",
+  "GenericPlayerTerm": "nông dân",
+  "Possessive_Pronoun_Male": "của anh ấy",
+  "Possessive_Pronoun_Female": "cô ấy"
+}

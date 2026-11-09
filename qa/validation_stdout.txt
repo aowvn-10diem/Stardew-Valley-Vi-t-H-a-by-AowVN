@@ -1,0 +1,19 @@
+{
+  "json_files": 2266,
+  "base_files": 238,
+  "reference_files": 2028,
+  "string_leaves": 43155,
+  "unchanged_json_files": 2223,
+  "changed_keys": 2235,
+  "changed_json_files": 43,
+  "restored_reference_targets": 666,
+  "event_files": 43,
+  "event_records": 258,
+  "event_skeleton_remaining": 0,
+  "audit_cases_patched": 36,
+  "errors": [],
+  "notes": [],
+  "runtime_tested": false,
+  "installable_package_verified": false,
+  "coverage_statement": "All JSON/static checks; targeted manual review. Not a claim of full sentence-by-sentence acceptance."
+}

@@ -1,0 +1,396 @@
+{
+  "source_page": "https://app.notion.com/p/540537cb1dec4793b4a4c971ae256d89",
+  "source_build": "stardew_vi_1.6_RC1.zip, 19/08/2026 chiều",
+  "summary": {
+    "sha256": "7d0f2ce4698e50c4394decc79c65265d051dacd936447b1fe4a9020c9c2cbf05",
+    "json_files": 2266,
+    "base_files": 238,
+    "base_string_leaves": 43155,
+    "reference_pairs": 43155,
+    "parse_errors": [],
+    "duplicate_keys": [],
+    "fffd": [],
+    "without_es_reference": [],
+    "token_candidates": 8,
+    "equal_english_candidates": 6226,
+    "flags": {
+      "style": 145,
+      "spelling": 0,
+      "old_terms": 2,
+      "spacing": 201,
+      "unicode": 0
+    }
+  },
+  "findings": [
+    {
+      "group": "Kỹ thuật",
+      "priority": "P1",
+      "file": "Data/Events/IslandSouth.json",
+      "key": "IslandDepart",
+      "en": "none/-1000 -1000/farmer 15 43 2 Willy 17 45 2/playMusic none/skippable true/playSound furnace/beginSimultaneousCommand/viewport 16 44 clamp true/globalFadeToClear 0.007/endSimultaneousCommand/locationSpecificCommand boat_reset/locationSpecificCommand boat_depart/globalFade/viewport -1000 -1000/end islandDepart",
+      "vi": "/-1000 -1000/farmer 15 43 2 Willy 17 45 2/playMusic none/skippable true/playSound furnace/beginSimultaneousCommand/viewport 16 44 clamp true/globalFadeToClear 0.007/endSimultaneousCommand/locationSpecificCommand boat_reset/locationSpecificCommand boat_depart/globalFade/viewport -1000 -1000/end islandDepart",
+      "issue": "Bản EN mở bằng none/-1000; bản VI mở thẳng bằng /-1000, mất giá trị none của trường mở đầu kịch bản. Không phải phần văn bản cần dịch.",
+      "suggestion": "Khôi phục none theo bản tham chiếu; chạy thử cảnh rời đảo. Chưa kết luận game chắc chắn lỗi chỉ từ sai khác tĩnh."
+    },
+    {
+      "group": "Kỹ thuật",
+      "priority": "P1",
+      "file": "Data/Events/Beach.json",
+      "key": "13/f Haley 1500/z winter/t 1000 1600",
+      "en": "desolate/35 11/farmer 35 3 2 Haley 35 11 2/speed Haley 4/skippable/move Haley -2 0 3/pause 300/faceDirection Haley 2/move Haley 4 0 1/pause 300/faceDirection Haley 0/move Haley -2 0 2/emote Haley 28/move farmer 0 5 2/faceDirection Haley 0/emote Haley 16/speak Haley \"@! Come here, quick!$s\"/move farmer 0 2 2/speak Haley \"My bracelet is gone! I know I had it on when I got here... $s#$b#But now it's gone and I can't find it anywhere...$s\"/emote farmer 16/faceDirection farmer 3/faceDirection farmer 1/faceDirection farmer 2/emote farmer 8/speak Haley \"$q 48 null#I'll never find another one like it...$s#$r 48 -30 Event_beach1#Relax, I'll just buy you a new one!#$r 48 50 Event_beach2#I'm really sorry...\"/faceDirection Haley 2/move farmer 1 0 2/move farmer 0 1 3/pause 500/faceDirection farmer 2/pause 600/showFrame Haley 22/pause 500/speak Haley \"Sorry, Great-Grandma. I lost your precious bracelet. Please forgive me.$s\"/playMusic ocean/pause 1000/message \"Could she have dropped it nearby?\"/playerControl haleyBeach/globalFade .015/viewport -1000 -1000/warp farmer 36 11/faceDirection farmer 3/positionOffset farmer 0 16/faceDirection Haley 1/pause 500/viewport 35 11 true/pause 800/playMusic sadpiano/speak Haley \"Is that...?$8\"/emote Haley 16/jump Haley/pause 600/speak Haley \"You found it!$h\"/showFrame Haley 23/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 1/pause 50/positionOffset Haley 2 1/pause 50/positionOffset Haley 2 1/pause 50/eyes 5 -5000/positionOffset Haley 2 1/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/speak Haley \"Thank you so much, @. You're a lifesaver.\"/eyes 1 -5000/pause 3000/speak Haley \"I won't forget what you did for me here.$l\"/end dialogue Haley \"I really owe you one, @.\"",
+      "vi": "desolate/35 11/farmer 35 3 2 Haley 35 11 2/speed Haley 4/skippable/move Haley -2 0 3/pause 300/faceDirection Haley 2/move Haley 4 0 1/pause 300/faceDirection Haley 0/move Haley -2 0 2/emote Haley 28/move farmer 0 5 2/faceDirection Haley 0/emote Haley 16/speak Haley \"@! Lại đây mau lên, nhanh!$s\"/move farmer 0 2 2/speak Haley \"Vòng tay của tôi biến mất rồi! Tôi biết chắc là lúc đến đây tôi vẫn còn đeo nó mà... $s#$b#Vậy mà giờ nó biến mất và tôi tìm khắp nơi cũng không thấy...$s\"/emote farmer 16/faceDirection farmer 3/faceDirection farmer 1/faceDirection farmer 2/emote farmer 8/speak Haley \"$q 48 null#Tôi sẽ chẳng bao giờ tìm được cái nào giống vậy nữa đâu...$s#$r 48 -30 Event_beach1#Thôi nào, để tôi mua cho bạn cái mới!#$r 48 50 Event_beach2#Tôi thực sự xin lỗi...\"/faceDirection Haley 2/move farmer 1 0 2/move farmer 0 1 3/pause 500/faceDirection farmer 2/pause 600/showFrame Haley 22/pause 500/speak Haley \"Xin lỗi, cụ cố ơi. Cháu đã làm mất chiếc vòng tay quý giá của cụ rồi. Xin cụ tha lỗi cho cháu.$s\"/playMusic ocean/pause 1000/message \"Có khi nào cô ấy làm rớt nó gần đây không nhỉ?\"/playerControl haleyBeach/globalFade .015/viewport -1000 -1000/warp farmer 36 11/faceDirection farmer 3/positionOffset farmer 0 16/faceDirection Haley 1/pause 500/viewport 35 11 true/pause 800/playMusic sadpiano/speak Haley \"Có phải nó không...?$8\"/emote Haley 16/jump Haley/pause 600/speak Haley \"Bạn tìm thấy nó rồi!$h\"/showFrame Haley 23/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 1/pause 50/positionOffset Haley 2 1/pause 50/positionOffset Haley 2 1/pause 50/eyes 5 -5000/positionOffset Haley 2 1/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/speak Haley \"Cảm ơn bạn nhiều lắm, @. Bạn đúng là vị cứu tinh của tôi.\"/eyes 1 -5000/pause 3000/speak Haley \"Tôi sẽ không quên những gì bạn đã làm cho tôi ở đây đâu.$l\"/end dialogue Haley \"Tôi thực sự nợ bạn một ơn lớn đấy, @.",
+      "issue": "Thiếu dấu nháy kép đóng ở cuối end dialogue so với bản EN. JSON vẫn hợp lệ vì dấu nháy là nội dung chuỗi, không phải cú pháp JSON.",
+      "suggestion": "Khôi phục dấu nháy đóng; xác minh parser sự kiện và chơi thử nhánh. Chưa khẳng định gây crash."
+    },
+    {
+      "group": "Kỹ thuật",
+      "priority": "P1",
+      "file": "Data/Events/Beach.json",
+      "key": "20/f Alex 500/z winter/p Alex/w sunny",
+      "en": "playful/-100 -100/farmer 27 7 2 Alex 25 17 2/showFrame Alex 23/skippable/animate Alex false true 125 16 17 18 19 20 21 22 23 23 23 23 23 23 23 23 23 23 23 23/viewport 28 14 true/move farmer 0 10 2/stopAnimation Alex/showFrame Alex 24/pause 600/showFrame Alex 23/speak Alex \"Oh, hi.\"/pause 300/emote Alex 40/speak Alex \"Um, it's @, right?\"/pause 800/faceDirection farmer 3/pause 800/faceDirection farmer 2/speak Alex \"I'm just enjoying this great weather, @.\"/pause 1000/faceDirection Alex 1/pause 500/showFrame Alex 24/speak Alex \"Hmm...$u#$b#Hey, go long!$h\"/pause 500/move farmer 2 0 3/pause 1000/showFrame Alex 4/animate Alex false false 80 24 25 25 26 4/pause 240/playSound throw/animate farmer true true 100 30/specificTemporarySprite joshFootball/null/pause 500/stopAnimation farmer/pause 700/speak Alex \"Heh... Nice try.\"/pause 500/move farmer -2 0 2/pause 800/faceDirection Alex 2/speak Alex \"I'm going to be the first professional gridball player from Stardew Valley... There's no doubt in my mind.#$b#I already led my school's team to the regional playoffs... Now I'm just training and getting stronger so I can claim my spot on the roster of the Zuzu City Tunnelers. You just wait!\"/pause 1000/question fork1 \"#I believe in you!#Wow, you're really arrogant.\"/fork arrogantJosh/faceDirection Alex 1/pause 500/speak Alex \"Thanks, @. I'll remember that.\"/move Alex 1 0 1/pause 500/end dialogue Alex \"Hey, that was fun, huh?\"",
+      "vi": "playful/-100 -100/farmer 27 7 2 Alex 25 17 2/showFrame Alex 23/skippable/animate Alex false true 125 16 17 18 19 20 21 22 23 23 23 23 23 23 23 23 23 23 23 23/viewport 28 14 true/move farmer 0 10 2/stopAnimation Alex/showFrame Alex 24/pause 600/showFrame Alex 23/speak Alex \"Ồ, chào cậu.\"/pause 300/emote Alex 40/speak Alex \"Ơ, cậu là @ đúng không?\"/pause 800/faceDirection farmer 3/pause 800/faceDirection farmer 2/speak Alex \"Tôi đang tận hưởng thời tiết đẹp thế này thôi, @.\"/pause 1000/faceDirection Alex 1/pause 500/showFrame Alex 24/speak Alex \"ừm...$u#$b#Ê, chạy ra xa rồi đón bóng đi!$h\"/pause 500/move farmer 2 0 3/pause 1000/showFrame Alex 4/animate Alex false false 80 24 25 25 26 4/pause 240/playSound throw/animate farmer true true 100 30/specificTemporarySprite joshFootball/null/pause 500/stopAnimation farmer/pause 700/speak Alex \"Hehe... Cố gắng đấy.\"/pause 500/move farmer -2 0 2/pause 800/faceDirection Alex 2/speak Alex \"Tôi sẽ là cầu thủ gridball chuyên nghiệp đầu tiên đến từ Thung lũng Stardew... Tôi chắc chắn điều đó.#$b#Tôi từng dẫn dắt đội trường mình vào vòng playoff khu vực... Giờ tôi chỉ đang luyện tập để mạnh hơn nữa, để giành được một suất trong đội hình Zuzu City Tunnelers. Cứ chờ mà xem!\"/pause 1000/question fork1 \"#Tôi tin cậu sẽ làm được!#Trời, cậu tự tin quá đấy.\"/fork arrogantJosh/faceDirection Alex 1/pause 500/speak Alex \"Cảm ơn cậu, @. Tôi sẽ nhớ điều đó.\"/move Alex 1 0 1/pause 500/end dialogue Alex \"Vui thật đấy nhỉ?",
+      "issue": "Thiếu dấu nháy kép đóng ở cuối end dialogue so với bản EN. JSON vẫn hợp lệ vì dấu nháy là nội dung chuỗi, không phải cú pháp JSON.",
+      "suggestion": "Khôi phục dấu nháy đóng; xác minh parser sự kiện và chơi thử nhánh. Chưa khẳng định gây crash."
+    },
+    {
+      "group": "Kỹ thuật",
+      "priority": "P1",
+      "file": "Data/Events/Beach.json",
+      "key": "arrogantJosh",
+      "en": "pause 500/faceDirection Alex 3/emote Alex 12/faceDirection Alex 2/speak Alex \"Hmmph... I think someone's a little jealous.$a\"/move Alex 0 -15 0 true/speak Alex \"I'm out of here.$a\"/faceDirection farmer 0/end dialogue Alex \"...$a\"",
+      "vi": "pause 500/faceDirection Alex 3/emote Alex 12/faceDirection Alex 2/speak Alex \"Hừ... Hình như có ai đó đang ghen tị thì phải.$a\"/move Alex 0 -15 0 true/speak Alex \"Tôi đi đây.$a\"/faceDirection farmer 0/end dialogue Alex \"...$a",
+      "issue": "Thiếu dấu nháy kép đóng ở cuối end dialogue so với bản EN. JSON vẫn hợp lệ vì dấu nháy là nội dung chuỗi, không phải cú pháp JSON.",
+      "suggestion": "Khôi phục dấu nháy đóng; xác minh parser sự kiện và chơi thử nhánh. Chưa khẳng định gây crash."
+    },
+    {
+      "group": "Kỹ thuật",
+      "priority": "P1",
+      "file": "Data/Events/Beach.json",
+      "key": "NoToElliott",
+      "en": "emote Elliott 16/pause 800/faceDirection Elliott 1/showFrame Elliott 31/pause 1000/emote Elliott 28/pause 600/speak Elliott \"I see.$7\"/move farmer 0 -10 0 true/pause 800/end dialogue Elliott \"...$a\"",
+      "vi": "emote Elliott 16/pause 800/faceDirection Elliott 1/showFrame Elliott 31/pause 1000/emote Elliott 28/pause 600/speak Elliott \"Tôi hiểu rồi.$7\"/move farmer 0 -10 0 true/pause 800/end dialogue Elliott \"...$a",
+      "issue": "Thiếu dấu nháy kép đóng ở cuối end dialogue so với bản EN. JSON vẫn hợp lệ vì dấu nháy là nội dung chuỗi, không phải cú pháp JSON.",
+      "suggestion": "Khôi phục dấu nháy đóng; xác minh parser sự kiện và chơi thử nhánh. Chưa khẳng định gây crash."
+    },
+    {
+      "group": "Sót dịch",
+      "priority": "P2",
+      "file": "Strings/StringsFromMaps.json",
+      "key": "JojaMart.23",
+      "en": "Take-home churro kit",
+      "vi": "Take-home churro kit",
+      "issue": "Chuỗi mô tả sản phẩm còn nguyên tiếng Anh. Bản de-DE, fr-FR, ja-JP đều bản địa hóa cùng key.",
+      "suggestion": "Dịch mô tả; giữ sắc thái châm biếm và dấu nháy quanh “sốt”. Gợi ý .23: “Bộ làm churro tại nhà”; .28/.35: “'Sốt' vị mật ong nguyên chất 100%”."
+    },
+    {
+      "group": "Sót dịch",
+      "priority": "P2",
+      "file": "Strings/StringsFromMaps.json",
+      "key": "JojaMart.28",
+      "en": "100% pure honey-flavored 'sauce'",
+      "vi": "100% pure honey-flavored 'sauce'",
+      "issue": "Chuỗi mô tả sản phẩm còn nguyên tiếng Anh. Bản de-DE, fr-FR, ja-JP đều bản địa hóa cùng key.",
+      "suggestion": "Dịch mô tả; giữ sắc thái châm biếm và dấu nháy quanh “sốt”. Gợi ý .23: “Bộ làm churro tại nhà”; .28/.35: “'Sốt' vị mật ong nguyên chất 100%”."
+    },
+    {
+      "group": "Sót dịch",
+      "priority": "P2",
+      "file": "Strings/StringsFromMaps.json",
+      "key": "JojaMart.35",
+      "en": "100% pure honey-flavored 'sauce'",
+      "vi": "100% pure honey-flavored 'sauce'",
+      "issue": "Chuỗi mô tả sản phẩm còn nguyên tiếng Anh. Bản de-DE, fr-FR, ja-JP đều bản địa hóa cùng key.",
+      "suggestion": "Dịch mô tả; giữ sắc thái châm biếm và dấu nháy quanh “sốt”. Gợi ý .23: “Bộ làm churro tại nhà”; .28/.35: “'Sốt' vị mật ong nguyên chất 100%”."
+    },
+    {
+      "group": "Thuật ngữ",
+      "priority": "P2",
+      "file": "Strings/1_6_Strings.json",
+      "key": "DF_Mine_Explanation",
+      "en": "---Welcome to the Skull Cavern Challenge!---^^Calico Eggs and mysterious Calico Statues have appeared throughout the caverns.^",
+      "vi": "---Chào mừng đến với Thử Thách Hang Rồng!---^^Trứng Calico và các Tượng Calico bí ẩn đã xuất hiện khắp các hang động.^",
+      "issue": "Skull Cavern lệch tên chuẩn Hang Đầu lâu: tồn tại Hang Rồng / Hang Sọ / Hang Hộp Sọ.",
+      "suggestion": "Đồng bộ về Hang Đầu lâu ở tham chiếu trực tiếp. Không thay mù ở đáp án gây nhiễu hay tên món ăn."
+    },
+    {
+      "group": "Thuật ngữ",
+      "priority": "P2",
+      "file": "Strings/1_6_Strings.json",
+      "key": "DesertFestival_Harvey_marriage",
+      "en": "Hey, @. I'll be working late during the festival, so don't wait up for me at night!#$e#Promise me you'll be careful in the skull caves.",
+      "vi": "Chào em, @. Anh sẽ làm việc muộn trong lễ hội này, nên đừng thức khuya đợi anh nhé!#$e#Hứa với anh là em sẽ cẩn thận trong Hang Sọ đó.",
+      "issue": "Skull Cavern lệch tên chuẩn Hang Đầu lâu: tồn tại Hang Rồng / Hang Sọ / Hang Hộp Sọ.",
+      "suggestion": "Đồng bộ về Hang Đầu lâu ở tham chiếu trực tiếp. Không thay mù ở đáp án gây nhiễu hay tên món ăn."
+    },
+    {
+      "group": "Thuật ngữ",
+      "priority": "P2",
+      "file": "Strings/UI.json",
+      "key": "Chat_HardModeSkullCaveActivated",
+      "en": "{0} has removed an ancient magi-seal of protection in the Skull Cavern. Tonight, powerful monsters will ascend from the deep...",
+      "vi": "{0} đã gỡ bỏ một phong ấn pháp thuật cổ đại bảo vệ Hang Hộp Sọ. Đêm nay, những quái vật mạnh mẽ sẽ trỗi dậy từ sâu thẳm...",
+      "issue": "Skull Cavern lệch tên chuẩn Hang Đầu lâu: tồn tại Hang Rồng / Hang Sọ / Hang Hộp Sọ.",
+      "suggestion": "Đồng bộ về Hang Đầu lâu ở tham chiếu trực tiếp. Không thay mù ở đáp án gây nhiễu hay tên món ăn."
+    },
+    {
+      "group": "Thuật ngữ",
+      "priority": "P2",
+      "file": "Strings/SpecialOrderStrings.json",
+      "key": "Marlon_DF_1_Objective",
+      "en": "Reach level 30 of the Skull Cavern.",
+      "vi": "Đạt đến tầng 30 của Hang Sọ.",
+      "issue": "Skull Cavern lệch tên chuẩn Hang Đầu lâu: tồn tại Hang Rồng / Hang Sọ / Hang Hộp Sọ.",
+      "suggestion": "Đồng bộ về Hang Đầu lâu ở tham chiếu trực tiếp. Không thay mù ở đáp án gây nhiễu hay tên món ăn."
+    },
+    {
+      "group": "Thuật ngữ",
+      "priority": "P2",
+      "file": "Strings/Notes.json",
+      "key": "15",
+      "en": "Technology Report!\n\nThe blueprints for an advanced piece of machinery called a 'Crystalarium' have recently been published.\n This machine can grow crystals from almost nothing, providing their owners with endless supplies of valuable gems!\nHere's how it works: Place a gem of your choice inside the crystalarium...\nnow be patient, it can take up to several days... but eventually the crystalarium will grow a copy of whatever you placed inside!\nYou'll know it's ready when it stops wiggling. Once you remove your gem the crystalarium will start working on yet another clone... You'll never need to restock it unless you want to change the kind of gem it produces!\nUnfortunately, the crystalarium doesn't work with the extremely rare gemstone known as 'Prismatic Shard'... For some reason, the EMF from the shard interacts negatively with the crystalarium.",
+      "vi": "Bản Tin Công Nghệ!\n\nBản thiết kế cho một cỗ máy tân tiến tên là 'Buồng Kết Tinh' vừa được công bố gần đây.\n Cỗ máy này có thể nuôi lớn tinh thể gần như từ hư không, cung cấp cho chủ nhân nguồn đá quý giá trị vô tận!\nCách hoạt động như sau: Đặt một viên đá quý bạn chọn vào trong buồng kết tinh...\ngiờ hãy kiên nhẫn, có thể mất tới vài ngày... nhưng cuối cùng buồng kết tinh sẽ nuôi lớn một bản sao của bất cứ thứ gì bạn bỏ vào!\nBạn sẽ biết nó xong khi nó ngừng rung. Sau khi bạn lấy viên đá quý ra, buồng kết tinh sẽ bắt đầu tạo thêm một bản sao nữa... Bạn sẽ không bao giờ phải nạp lại trừ khi muốn đổi loại đá quý mà nó tạo ra!\nĐáng tiếc, buồng kết tinh không hoạt động với loại đá quý cực hiếm mang tên 'Mảnh Lăng Kính'... Vì lý do nào đó, trường điện từ từ mảnh này tương tác tiêu cực với buồng kết tinh.",
+      "issue": "Prismatic Shard chưa thống nhất: Mảnh Lăng Kính / mảnh lăng kính / mảnh lăng trụ / mảnh Tản sắc / Mảng tán sắc.",
+      "suggestion": "Dùng Mảnh Tán Sắc theo glossary; Qi giữ Qi, không viết Kì. Giữ quy tắc viết hoa theo loại chuỗi."
+    },
+    {
+      "group": "Thuật ngữ",
+      "priority": "P2",
+      "file": "Strings/Objects.json",
+      "key": "MagicRockCandy_Description",
+      "en": "A rare and powerful candy infused with the essence of the prismatic shard.",
+      "vi": "Một loại kẹo quý hiếm và mạnh mẽ được truyền tinh hoa từ mảnh lăng kính.",
+      "issue": "Prismatic Shard chưa thống nhất: Mảnh Lăng Kính / mảnh lăng kính / mảnh lăng trụ / mảnh Tản sắc / Mảng tán sắc.",
+      "suggestion": "Dùng Mảnh Tán Sắc theo glossary; Qi giữ Qi, không viết Kì. Giữ quy tắc viết hoa theo loại chuỗi."
+    },
+    {
+      "group": "Thuật ngữ",
+      "priority": "P2",
+      "file": "Strings/1_6_Strings.json",
+      "key": "MagicHairDye_Description",
+      "en": "Your hair shimmers with all the colors of a prismatic shard.",
+      "vi": "Tóc bạn lấp lánh với mọi màu sắc của một mảnh lăng trụ.",
+      "issue": "Prismatic Shard chưa thống nhất: Mảnh Lăng Kính / mảnh lăng kính / mảnh lăng trụ / mảnh Tản sắc / Mảng tán sắc.",
+      "suggestion": "Dùng Mảnh Tán Sắc theo glossary; Qi giữ Qi, không viết Kì. Giữ quy tắc viết hoa theo loại chuỗi."
+    },
+    {
+      "group": "Thuật ngữ",
+      "priority": "P2",
+      "file": "Strings/SpecialOrderStrings.json",
+      "key": "QiChallenge4_Objective_0_Text",
+      "en": "Place 4 Prismatic Shards into Qi's collection box.",
+      "vi": "Đặt 4 mảnh Tản sắc vào thùng sưu tập của Kì.",
+      "issue": "Prismatic Shard chưa thống nhất: Mảnh Lăng Kính / mảnh lăng kính / mảnh lăng trụ / mảnh Tản sắc / Mảng tán sắc.",
+      "suggestion": "Dùng Mảnh Tán Sắc theo glossary; Qi giữ Qi, không viết Kì. Giữ quy tắc viết hoa theo loại chuỗi."
+    },
+    {
+      "group": "Thuật ngữ",
+      "priority": "P2",
+      "file": "Strings/StringsFromCSFiles.json",
+      "key": "MeleeWeapon.cs.14122",
+      "en": "The prismatic shard changes shape before your very eyes! This power is tremendous.^^     You've found the =Galaxy Sword=  ^",
+      "vi": "Mảng tán sắc biến đổi hình dạng ngay trước mắt bạn! Sức mạnh này thật ghê gớm.^^     Bạn tìm được =Kiếm Ngân hà=  ^",
+      "issue": "Prismatic Shard chưa thống nhất: Mảnh Lăng Kính / mảnh lăng kính / mảnh lăng trụ / mảnh Tản sắc / Mảng tán sắc.",
+      "suggestion": "Dùng Mảnh Tán Sắc theo glossary; Qi giữ Qi, không viết Kì. Giữ quy tắc viết hoa theo loại chuỗi."
+    },
+    {
+      "group": "Thuật ngữ",
+      "priority": "P2",
+      "file": "Strings/1_6_Strings.json",
+      "key": "Gil_Rating_15to19",
+      "en": "{0}... that ain't bad at all. That's the kind of number we're looking for in the Adventurer's Guild. Here's your prize.",
+      "vi": "{0}... không tệ chút nào đâu. Đó là con số mà chúng tôi muốn thấy ở Hội Mạo Hiểm Gia. Đây là giải thưởng của cháu.",
+      "issue": "Hội Mạo Hiểm Gia lệch tên Hội Thám Hiểm đã chốt.",
+      "suggestion": "Đổi đúng tên tổ chức, không đổi Quầy Thử Thách khi câu nói về quầy của hội."
+    },
+    {
+      "group": "Thuật ngữ",
+      "priority": "P2",
+      "file": "Strings/StringsFromMaps.json",
+      "key": "JoshHouse.3",
+      "en": "'Pro Gridball Season 44: Stats and Standings'",
+      "vi": "'Bóng Lưới Nhà Nghề Mùa 44: Chỉ Số và Xếp Hạng'",
+      "issue": "gridball bị dịch thành Bóng Lưới/bóng lưới, trái quy ước giữ tên môn thể thao hư cấu.",
+      "suggestion": "Giữ gridball, dịch phần danh từ chung xung quanh."
+    },
+    {
+      "group": "Thuật ngữ",
+      "priority": "P2",
+      "file": "Strings/StringsFromMaps.json",
+      "key": "JoshHouse.7",
+      "en": "You peek into Alex's drawer. There's clothes, hair gel, and a box of gridball trading cards.",
+      "vi": "Bạn ngó vào tủ của Alex. Trong đó có quần áo, keo vuốt tóc, và một hộp thẻ cầu thủ bóng lưới.",
+      "issue": "gridball bị dịch thành Bóng Lưới/bóng lưới, trái quy ước giữ tên môn thể thao hư cấu.",
+      "suggestion": "Giữ gridball, dịch phần danh từ chung xung quanh."
+    },
+    {
+      "group": "Thuật ngữ",
+      "priority": "P2",
+      "file": "Strings/StringsFromMaps.json",
+      "key": "JoshHouse.8",
+      "en": "You peek into Alex's drawer. There's clothes, hair gel, and a box of gridball trading cards.",
+      "vi": "Bạn ngó vào tủ của Alex. Trong đó có quần áo, keo vuốt tóc, và một hộp thẻ cầu thủ bóng lưới.",
+      "issue": "gridball bị dịch thành Bóng Lưới/bóng lưới, trái quy ước giữ tên môn thể thao hư cấu.",
+      "suggestion": "Giữ gridball, dịch phần danh từ chung xung quanh."
+    },
+    {
+      "group": "Thuật ngữ",
+      "priority": "P2",
+      "file": "Strings/StringsFromMaps.json",
+      "key": "JoshHouse.10",
+      "en": "It's a gridball.",
+      "vi": "Một quả bóng lưới.",
+      "issue": "gridball bị dịch thành Bóng Lưới/bóng lưới, trái quy ước giữ tên môn thể thao hư cấu.",
+      "suggestion": "Giữ gridball, dịch phần danh từ chung xung quanh."
+    },
+    {
+      "group": "Xưng hô",
+      "priority": "P2",
+      "file": "Dialogue/Jas.json",
+      "key": "eventSeen_3910974",
+      "en": "*giggle* ...look, I've got real bunny-jewel slippers!$h",
+      "vi": "*khúc khích* ...chú cô nhìn này, cháu có đôi dép thỏ đính đá thật luôn!$h",
+      "issue": "“chú cô nhìn này” là hai cách gọi bị ghép thành một cụm, không có biến chọn giới tính.",
+      "suggestion": "Tra bảng vai vế, dùng một nhánh hợp lệ, chẳng hạn “${Anh^Chị}$ nhìn này...” theo chuẩn Jas; không giữ cả chú/cô trong cùng lời thoại."
+    },
+    {
+      "group": "Xưng hô",
+      "priority": "P2",
+      "file": "Dialogue/Leah.json",
+      "key": "Tue",
+      "en": "Hello, neighbor.#$e#We both live outside of town. Does that mean something?",
+      "vi": "Chào hàng xóm.#$e#Hai chị em mình đều sống ngoài rìa thị trấn. Có ý nghĩa gì không nhỉ?",
+      "issue": "“Hai chị em mình” gán người chơi vào quan hệ chị-em cố định, trong khi bản gốc chỉ nói hai người cùng sống ngoài thị trấn.",
+      "suggestion": "Tạm đề xuất “Cả hai mình đều sống ngoài thị trấn. Không biết có duyên gì không nhỉ?”; chốt hệ xưng hô toàn file trước khi sửa."
+    },
+    {
+      "group": "Xưng hô",
+      "priority": "P2",
+      "file": "Dialogue/Leah.json",
+      "key": "AcceptGift_(O)StardropTea",
+      "en": "Oh, wow... I had a sip of this stuff when I was a kid, and I've never forgotten the taste.",
+      "vi": "Chà, oa... Hồi bé chị từng nhấp thử một ngụm thứ này, và chưa bao giờ quên được cái vị ấy.",
+      "issue": "Leah tự xưng chị trong khi bảng chuẩn quy định em, gọi người chơi anh/chị. Đây không chỉ là thay đổi văn phong.",
+      "suggestion": "Đồng bộ theo bảng chuẩn hoặc cập nhật quy ước có chủ đích trước; không đổi từng dòng cảm tính."
+    },
+    {
+      "group": "Xưng hô",
+      "priority": "P2",
+      "file": "Strings/schedules/Elliott.json",
+      "key": "marriage_Mon.000",
+      "en": "Hello, @. I'm just watching the waves from here.",
+      "vi": "Chào em. Tôi chỉ đang ngắm những con sóng từ đây thôi.",
+      "issue": "“Chào em. Tôi...” đổi tôi/anh trong ngữ cảnh hôn nhân; tên người chơi @ bị bỏ.",
+      "suggestion": "Gợi ý “Chào em, @. Anh đang đứng đây ngắm sóng thôi.”; đây là đề xuất, chưa áp dụng."
+    },
+    {
+      "group": "Sai nghĩa",
+      "priority": "P2",
+      "file": "Dialogue/rainy.json",
+      "key": "Gus",
+      "en": "There's nothing like a glass of dry red wine on a day like this, huh?#$e#I love my job. Hehehe.",
+      "vi": "Không gì sánh bằng một ly vang đỏ nguyên chất vào một ngày thế này, nhỉ?#$e#Chú yêu công việc của mình. Hehehe.",
+      "issue": "dry red wine bị hiểu thành vang đỏ nguyên chất; dry ở đây nói về độ ít ngọt, không phải độ tinh khiết.",
+      "suggestion": "Dùng “vang đỏ khô” hoặc “vang đỏ ít ngọt”, chọn một cách thống nhất trong toàn corpus."
+    },
+    {
+      "group": "Sai nghĩa",
+      "priority": "P2",
+      "file": "Strings/StringsFromCSFiles.json",
+      "key": "ItemDeliveryQuest.cs.13337",
+      "en": "pair with a dry red wine this evening",
+      "vi": "cặp với một chai vang đỏ nguyên chất vào tối nay",
+      "issue": "Lặp lỗi dry red wine → vang đỏ nguyên chất; “cặp với” cũng gượng.",
+      "suggestion": "Gợi ý theo khung ghép câu: “dùng kèm vang đỏ khô vào tối nay”; kiểm tra cả câu được game ghép trước khi ghi."
+    },
+    {
+      "group": "Sai nghĩa",
+      "priority": "P2",
+      "file": "Dialogue/MarriageDialogue.json",
+      "key": "spouseRoom_Penny",
+      "en": "#$c .5#I always wanted my very own library. This is so charming.$h#$e#I like to do a little reading first thing in the morning. It gets my brain into gear.",
+      "vi": "#$c .5#Em đã luôn mơ ước có một thư viện cho riêng mình. Giờ thì giấc mơ ấy thành sự thật rồi.$h#$e#Đọc vài trang sách vào buổi sáng khiến lòng em thấy nhẹ nhõm hơn hẳn.",
+      "issue": "“gets my brain into gear” = giúp đầu óc tỉnh táo/khởi động; bản VI đổi thành lòng nhẹ nhõm, chuyển từ nhận thức sang cảm xúc.",
+      "suggestion": "Gợi ý “Sáng ra đọc vài trang sách là đầu óc em tỉnh táo hẳn.” Giữ nguyên khung token."
+    },
+    {
+      "group": "Sai nghĩa",
+      "priority": "P2",
+      "file": "Dialogue/MarriageDialogueKrobus.json",
+      "key": "Indoor_Day_1",
+      "en": "I tried my best to make human food... [203 204 651 225]#$e#You can eat it later, don't worry about it...",
+      "vi": "Tớ đã cố gắng hết sức để nấu đồ ăn con người này... [203 204 651 225]#$e#Cậu có thể ăn nó mà, đừng lo lắng quá...",
+      "issue": "“You can eat it later” là lời cho phép ăn sau; bản VI mất later, thành trấn an rằng có thể ăn được món đó.",
+      "suggestion": "Gợi ý “Cậu cứ để lát nữa ăn cũng được, đừng ngại...” rồi áp hệ tự xưng đã chốt."
+    },
+    {
+      "group": "Sai nghĩa",
+      "priority": "P2",
+      "file": "Dialogue/MarriageDialogueKrobus.json",
+      "key": "summer_1",
+      "en": "I get sunburnt very easily, so I need to be careful this time of year.",
+      "vi": "Da tớ dễ bị cháy nắng lắm, thế nên trong năm nay tớ phải cẩn thận hơn mới được.",
+      "issue": "“this time of year” (thời điểm/mùa này trong năm) bị đổi thành “trong năm nay”.",
+      "suggestion": "Gợi ý “Da tôi rất dễ cháy nắng, nên mùa này phải cẩn thận.”"
+    },
+    {
+      "group": "Thêm ý",
+      "priority": "P2",
+      "file": "Dialogue/MarriageDialogue.json",
+      "key": "Neutral_9",
+      "en": "I wonder if we'll live here our entire lives?",
+      "vi": "Không biết mai này, khi tóc đã pha sương, chúng ta có còn ở nơi này, nắm tay nhau như bây giờ không nhỉ?",
+      "issue": "Bản gốc chỉ hỏi có sống ở đây cả đời không. Bản VI thêm tóc pha sương và nắm tay, tăng độ sến và giả định hành động.",
+      "suggestion": "Gợi ý “Không biết hai đứa mình có ở đây đến hết đời không nhỉ?” theo người nói thực tế của file chung."
+    },
+    {
+      "group": "Thêm ý",
+      "priority": "P2",
+      "file": "Dialogue/MarriageDialogueEmily.json",
+      "key": "Good_3",
+      "en": "Thanks for taking me into your home. I love this new life.$4",
+      "vi": "Cảm ơn ${anh^em}$ đã đón ${em^chị}$ về mái nhà này, như một vì sao được dẫn lối về đúng quỹ đạo của nó. ${Em^Chị}$ yêu cuộc sống mới này, và yêu ${anh^em}$ nhiều lắm.$4",
+      "issue": "Thêm vì sao/quỹ đạo và lời “yêu ... nhiều lắm”; bản gốc chỉ cảm ơn được đón về nhà và yêu cuộc sống mới.",
+      "suggestion": "Giữ chất Emily bằng nhịp và từ ngữ, không thêm lời tỏ tình mới: “Cảm ơn ... đã đón ... về nhà. ... yêu cuộc sống mới này lắm.” Giữ toàn bộ biến."
+    },
+    {
+      "group": "Thêm ý",
+      "priority": "P2",
+      "file": "Dialogue/MarriageDialogueKrobus.json",
+      "key": "Neutral_0",
+      "en": "I won't ever grow old, but you will. Sometimes it makes me sad... but that's okay.$s",
+      "vi": "Tớ sẽ chẳng bao giờ già đi, nhưng cậu lại có. Đôi khi nghĩ vậy làm tớ buồn... nhưng dù thời gian có trôi thế nào, tớ vẫn muốn được ở bên cậu đến cùng.$s",
+      "issue": "Câu chấp nhận chuyện người chơi sẽ già bị thay bằng lời hứa ở bên đến cùng, không có trong EN.",
+      "suggestion": "Khôi phục ý “Đôi khi nghĩ đến cũng buồn... nhưng không sao.”"
+    },
+    {
+      "group": "Thêm ý",
+      "priority": "P2",
+      "file": "Dialogue/MarriageDialogueKrobus.json",
+      "key": "Bad_7",
+      "en": "Maybe a relationship like this is destined to fail...$s",
+      "vi": "Có lẽ mối quan hệ này đã được Yoba định sẵn là sẽ tan vỡ rồi...$s",
+      "issue": "Thêm Yoba thành tác nhân định đoạt mối quan hệ. EN không nhắc Yoba. Changelog cũ từng ghi đã bỏ nhưng ZIP đang kiểm tra vẫn còn.",
+      "suggestion": "Gợi ý “Có lẽ mối quan hệ thế này vốn chẳng đi đến đâu...$s”."
+    },
+    {
+      "group": "Chất giọng",
+      "priority": "P2",
+      "file": "Dialogue/Willy.json",
+      "key": "accept_869",
+      "en": "Ah... That's the perfect bait for a catfish I've been tryin' to catch!#$b#Here, let me trade you this for it. I'm not sure what it is, but it washed up on the beach not too long ago.#$b#Somethin' tells me you could use it, lad.^Somethin' tells me you could use it, miss.",
+      "vi": "À... Một mồi câu hoàn hảo cho con cá trê lão đang cố bắt mấy bữa nay!#$b#Ở này, để lão đổi cái này cho cậu. Lão không chắc đây là thứ gì nhưng nó dạt vào bãi biển không lâu trước đây.#$b#Linh tính mách bảo lão là cậu sẽ dùng được thứ này đấy, chàng trai.^Linh tính mách bảo lão là cậu sẽ dùng được thứ này đấy, cô nương.",
+      "issue": "“Ở này” không tự nhiên trong câu trao đổi vật phẩm.",
+      "suggestion": "Gợi ý “Đây, để lão đổi cái này cho cậu.” Giữ đúng ngắt đoạn và hai nhánh cuối."
+    }
+  ],
+  "manual_complete_files": [
+    "Dialogue/MarriageDialogueKrobus.json (89 entries, including ellipsis-only seasonal keys)",
+    "Strings/schedules/Elliott.json (4 entries)"
+  ],
+  "limitations": [
+    "Not every player-facing line was manually re-reviewed.",
+    "No in-game runtime or visual layout testing.",
+    "es-ES supplied as English reference in this project, not independently verified against current game distribution.",
+    "Automatic flags are candidates, not counts of confirmed errors."
+  ]
+}

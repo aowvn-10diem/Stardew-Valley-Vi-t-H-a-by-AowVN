@@ -1,0 +1,471 @@
+[
+  {
+    "Name": "Penny",
+    "LovedTags": [
+      "Kẹo Bông Gòn"
+    ],
+    "LikedTags": [
+      "Sweet"
+    ],
+    "DislikedTags": [
+      "Sour"
+    ]
+  },
+  {
+    "Name": "Pam",
+    "LovedTags": [
+      "Nachos"
+    ],
+    "LikedTags": [
+      "Salty",
+      "Fatty",
+      "Joja"
+    ],
+    "DislikedTags": [
+      "Healthy",
+      "Gourmet"
+    ]
+  },
+  {
+    "Name": "George",
+    "LovedTags": [
+      "Kẹo Cam Thảo Đen"
+    ],
+    "LikedTags": [
+      "Salty"
+    ],
+    "DislikedTags": [
+      "Sweet",
+      "Healthy"
+    ]
+  },
+  {
+    "Name": "Alex",
+    "LovedTags": [
+      "Burger Cá Hồi"
+    ],
+    "LikedTags": [
+      "Salty",
+      "Hot"
+    ],
+    "DislikedTags": [
+      "Candy"
+    ]
+  },
+  {
+    "Name": "Evelyn",
+    "LovedTags": [
+      "Bánh Mousse Cappuccino",
+      "Bánh Quy Ngôi Sao"
+    ],
+    "LikedTags": [
+      "Sweet"
+    ],
+    "DislikedTags": [
+      "Salty",
+      "Hot"
+    ]
+  },
+  {
+    "Name": "Pierre",
+    "LovedTags": [
+      "Pizza Cá Nhân"
+    ],
+    "LikedTags": [
+      "Hot"
+    ],
+    "DislikedTags": [
+      "Joja"
+    ]
+  },
+  {
+    "Name": "Abigail",
+    "LovedTags": [
+      "Kẹo Đá"
+    ],
+    "LikedTags": [
+      "Candy",
+      "Sweet"
+    ],
+    "DislikedTags": [
+      "Healthy"
+    ]
+  },
+  {
+    "Name": "Caroline",
+    "LovedTags": [
+      "Bỏng Ngô Nấm Truffle",
+      "Trà Hoa Lài"
+    ],
+    "LikedTags": [
+      "Healthy"
+    ],
+    "DislikedTags": [
+      "Fatty",
+      "Candy"
+    ]
+  },
+  {
+    "Name": "Harvey",
+    "LovedTags": [
+      "Táo Thái Lát",
+      "Trà Hoa Lài"
+    ],
+    "LikedTags": [
+      "Healthy",
+      "Gourmet"
+    ],
+    "DislikedTags": [
+      "Sweet",
+      "Fatty",
+      "Salty"
+    ]
+  },
+  {
+    "Name": "Gus",
+    "LovedTags": [
+      "Gourmet"
+    ],
+    "LikedTags": [
+      "Sandwich"
+    ],
+    "DislikedTags": [
+      "Healthy",
+      "Candy"
+    ]
+  },
+  {
+    "Name": "Lewis",
+    "LovedTags": [
+      "Trà Hoa Lài"
+    ],
+    "LikedTags": [
+      "Sweet",
+      "Popcorn"
+    ],
+    "DislikedTags": [
+      "Candy"
+    ]
+  },
+  {
+    "Name": "Jodi",
+    "LovedTags": [
+      "Bắp Rang Sô Cô La"
+    ],
+    "LikedTags": [
+      "Fatty",
+      "Hot",
+      "Salty"
+    ],
+    "DislikedTags": [
+      "Candy",
+      "Bỏng Ngô Nấm Truffle",
+      "Healthy"
+    ]
+  },
+  {
+    "Name": "Sam",
+    "LovedTags": [
+      "Pizza Cá Nhân"
+    ],
+    "LikedTags": [
+      "Nước ngọt Joja",
+      "Candy"
+    ],
+    "DislikedTags": [
+      "Healthy",
+      "Gourmet"
+    ]
+  },
+  {
+    "Name": "Vincent",
+    "LovedTags": [
+      "Jawbreaker"
+    ],
+    "LikedTags": [
+      "Sweet",
+      "Candy"
+    ],
+    "DislikedTags": [
+      "Healthy",
+      "Gourmet"
+    ]
+  },
+  {
+    "Name": "Kent",
+    "LovedTags": [
+      "Popcorn"
+    ],
+    "LikedTags": [
+      "Salty"
+    ],
+    "DislikedTags": [
+      "Candy"
+    ]
+  },
+  {
+    "Name": "Clint",
+    "LovedTags": [
+      "Fries"
+    ],
+    "LikedTags": [
+      "Fatty"
+    ],
+    "DislikedTags": [
+      "Healthy"
+    ]
+  },
+  {
+    "Name": "Emily",
+    "LovedTags": [
+      "Sinh Tố Cải Xoăn"
+    ],
+    "LikedTags": [
+      "Healthy",
+      "Gourmet"
+    ],
+    "DislikedTags": [
+      "Fatty",
+      "Salty"
+    ]
+  },
+  {
+    "Name": "Haley",
+    "LovedTags": [
+      "Bánh Mousse Cappuccino"
+    ],
+    "LikedTags": [
+      "Sweet"
+    ],
+    "DislikedTags": [
+      "Fatty",
+      "Salty"
+    ]
+  },
+  {
+    "Name": "Maru",
+    "LovedTags": [
+      "Bánh Quy Ngôi Sao"
+    ],
+    "LikedTags": [
+      "Fatty",
+      "Sweet"
+    ],
+    "DislikedTags": [
+      "Cold"
+    ]
+  },
+  {
+    "Name": "Sebastian",
+    "LovedTags": [
+      "Trà Hoa Lài"
+    ],
+    "LikedTags": [
+      "Táo Thái Lát",
+      "Salty",
+      "Hot"
+    ],
+    "DislikedTags": [
+      "Gourmet",
+      "Sinh Tố Cải Xoăn"
+    ]
+  },
+  {
+    "Name": "Robin",
+    "LovedTags": [
+      "Đậu Phộng Rang Muối"
+    ],
+    "LikedTags": [
+      "Salty",
+      "Fatty"
+    ],
+    "DislikedTags": [
+      "Candy"
+    ]
+  },
+  {
+    "Name": "Demetrius",
+    "LovedTags": [
+      "Popcorn"
+    ],
+    "LikedTags": [
+      "Sweet"
+    ],
+    "DislikedTags": [
+      "Healthy"
+    ]
+  },
+  {
+    "Name": "Linus",
+    "LovedTags": [
+      "Burger Cá Hồi"
+    ],
+    "LikedTags": [
+      "Healthy",
+      "Gourmet"
+    ],
+    "DislikedTags": [
+      "Joja"
+    ]
+  },
+  {
+    "Name": "Dwarf",
+    "LovedTags": [
+      "Kẹo Đá"
+    ],
+    "LikedTags": [
+      "Candy"
+    ],
+    "DislikedTags": [
+      "Hot",
+      "Healthy",
+      "Gourmet",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "Name": "Krobus",
+    "LovedTags": [
+      "Kẹo Cam Thảo Đen"
+    ],
+    "LikedTags": [],
+    "DislikedTags": [
+      "Sweet",
+      "Kem Sorbet Stardrop"
+    ]
+  },
+  {
+    "Name": "Wizard",
+    "LovedTags": [
+      "Kẹo Cam Thảo Đen",
+      "Bánh Quy Ngôi Sao"
+    ],
+    "LikedTags": [
+      "Trà Hoa Lài",
+      "Candy"
+    ],
+    "DislikedTags": [
+      "Hot",
+      "Healthy",
+      "Gourmet",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "Name": "Marnie",
+    "LovedTags": [
+      "Bánh Kẹp Kem"
+    ],
+    "LikedTags": [
+      "Sweet",
+      "Popcorn"
+    ],
+    "DislikedTags": [
+      "Salty"
+    ]
+  },
+  {
+    "Name": "Shane",
+    "LovedTags": [
+      "Pizza Cá Nhân",
+      "Nachos",
+      "Joja",
+      "Gói Ăn Vặt Hummus"
+    ],
+    "LikedTags": [
+      "Fatty"
+    ],
+    "DislikedTags": [
+      "Gourmet",
+      "Táo Thái Lát",
+      "Sinh Tố Cải Xoăn"
+    ]
+  },
+  {
+    "Name": "Jas",
+    "LovedTags": [
+      "Kẹo Slime Chua"
+    ],
+    "LikedTags": [
+      "Sweet",
+      "Candy"
+    ],
+    "DislikedTags": [
+      "Healthy",
+      "Gourmet",
+      "Salty"
+    ]
+  },
+  {
+    "Name": "Leah",
+    "LovedTags": [
+      "Salad Panzanella"
+    ],
+    "LikedTags": [
+      "Healthy",
+      "Gourmet"
+    ],
+    "DislikedTags": [
+      "Fatty",
+      "Salty"
+    ]
+  },
+  {
+    "Name": "Sandy",
+    "LovedTags": [
+      "Kẹo Bông Gòn"
+    ],
+    "LikedTags": [
+      "Gourmet",
+      "Sweet"
+    ],
+    "DislikedTags": [
+      "Candy"
+    ]
+  },
+  {
+    "Name": "Elliott",
+    "LovedTags": [
+      "Bỏng Ngô Nấm Truffle",
+      "Bánh Mousse Cappuccino"
+    ],
+    "LikedTags": [
+      "Gourmet",
+      "Healthy"
+    ],
+    "DislikedTags": [
+      "Candy",
+      "Fatty",
+      "Salty"
+    ]
+  },
+  {
+    "Name": "Willy",
+    "LovedTags": [
+      "Burger Cá Hồi"
+    ],
+    "LikedTags": [
+      "Hot",
+      "Fatty",
+      "Salty"
+    ],
+    "DislikedTags": [
+      "Candy",
+      "Healthy",
+      "Gourmet"
+    ]
+  },
+  {
+    "Name": "*",
+    "LovedTags": [
+      "Kem Sorbet Stardrop"
+    ],
+    "LikedTags": [],
+    "DislikedTags": [
+      "Kẹo Cam Thảo Đen",
+      "Joja"
+    ]
+  }
+]

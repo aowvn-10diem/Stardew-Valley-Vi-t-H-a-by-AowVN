@@ -1,0 +1,3 @@
+# Giữ nguyên byte mọi file nguồn (validator so byte các file tham chiếu locale).
+* -text
+*.zip binary

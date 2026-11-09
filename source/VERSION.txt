@@ -1,0 +1,20 @@
+STARDEW VALLEY VIỆT HÓA — RC2 SOURCE REVIEW
+Ngày đóng gói: 23/10/2026
+Nền: ZIP RC1 19/08/2026, SHA256:
+7d0f2ce4698e50c4394decc79c65265d051dacd936447b1fe4a9020c9c2cbf05
+
+ĐÂY LÀ GÓI NGUỒN JSON ĐÃ SỬA, KHÔNG PHẢI BẢN CÀI GAME ĐÃ NGHIỆM THU.
+Không chép JSON thẳng vào Content rồi coi như đã cài thành công.
+Gói không có XNB, manifest.json hoặc content.json của Content Patcher.
+Cần tích hợp qua pipeline XNB hoặc content pack phù hợp và thử trong game.
+
+Phạm vi: 2.266 JSON; 238 file cơ sở; 2.028 file tham chiếu giữ nguyên byte.
+Sửa 2.235 bản ghi/giá trị trong 43 JSON (không phải 2.235 câu thoại).
+Quét tĩnh: JSON/khóa trùng/U+FFFD: 0 lỗi; khung lệnh của 258 kịch bản
+trong 43 file Events khớp tham chiếu sau khi che phần văn bản bản địa hóa.
+36/36 trường hợp của báo cáo kiểm định RC1 có bản vá.
+
+Chưa nghiệm thu: chạy game, font/dấu, khung thoại, nhánh giới tính,
+load/save, cơ chế chơi, phiên bản game cụ thể và biên tập từng câu toàn corpus.
+Không dùng nhãn “Final”, “100% hoàn thiện” hoặc “cài trực tiếp không SMAPI”.
+Xem KIT_TESTER/GhiChu_PhatHanh.md và Known_Issues.md.
